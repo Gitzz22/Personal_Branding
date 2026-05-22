@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sigit Prakoso Portofolio </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>  
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">SP<span class="dot">.</span></div>
+    <button class="nav__toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#home" class="nav__link">Beranda</a></li>
+      <li><a href="#about" class="nav__link">Tentang</a></li>
+      <li><a href="#skills" class="nav__link">Keahlian</a></li>
+      <li><a href="#projects" class="nav__link">Proyek</a></li>
+      <li><a href="#cv" class="nav__link">CV</a></li>
+      <li><a href="#contact" class="nav__link">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <div class="blob blob--1"></div>
+      <div class="blob blob--2"></div>
+      <div class="grid-lines"></div>
+    </div>
+    <div class="hero__content">
+      <div class="hero__text reveal">
+        <p class="hero__greeting">Halo, saya</p>
+        <h1 class="hero__name">Sigit<br /><em>Prakoso</em></h1>
+        <p class="hero__tagline">Web Developer</p>
+        <p class="hero__desc">
+         Selamat datang di website portofolio saya. Di sini, saya membagikan karya, pengalaman, dan perjalanan saya sebagai pelajar SMK Negeri 7 Semarang di bidang teknologi.
+        </p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">Lihat Karya</a>
+          <a href="#contact" class="btn btn--ghost">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero__photo reveal reveal--delay">
+        <div class="photo-frame">
+          <div class="photo-inner">
+            <div class="photo-placeholder">
+              <img src="Img/Sigit 392.jpg" style="width:100%;height:100%;object-fit:cover;">
+                <ellipse cx="100" cy="80" rx="44" ry="48" fill="rgba(255,255,255,0.15)"/>
+                <ellipse cx="100" cy="190" rx="72" ry="50" fill="rgba(255,255,255,0.10)"/>
+                <text x="100" y="248" text-anchor="middle" fill="rgba(255,255,255,0.3)" </text>
+              </svg>
+            </div>
+          </div>
+          <div class="photo-badge" id="downloadCV" style="cursor:pointer;">
+            <span></span> Download CV
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint">
+      <span>Gulir ke bawah</span>
+      <div class="scroll-arrow"></div>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-label reveal">— Tentang Saya</div>
+      <h2 class="section-title reveal">Mengenal lebih dekat<br /><em>siapa saya</em></h2>
+
+      <div class="about__cards">
+
+        <div class="about-card reveal">
+          <h3 class="about-card__title"> Keluarga</h3>
+          <p class="about-card__desc">Saya lahir dan hidup di semarang, ayah saya bernama yudi sulistyo dan ibu saya bernama dwi windarti.</p>
+        </div>
+
+        <div class="about-card reveal reveal--delay">
+
+          <h3 class="about-card__title">Riwayat Pendidikan</h3>
+          <p class="about-card__desc">1. SDN PEDURUNGAN LOR 02</p>
+          <p class="about-card__desc">2. SMPN 32 SEMARANG</p>
+          <p class="about-card__desc">3. SMKN 7 SEMARANG</p>
+        </div>
+
+        <div class="about-card reveal reveal--delay-2">
+          <h3 class="about-card__title">Hobi</h3>
+          <p class="about-card__desc">Saya gemar membuat proyek skala kecil, bermain badminton, mendengarkan musik, mendaki gunung dan sesekali bermain game sebagai hiburan.</p>
+        </div>
+
+        <div class="about-card reveal">
+          <h3 class="about-card__title">Minat</h3>
+          <p class="about-card__desc">Tertarik pada dunia UI/UX design, web developer, dan bagaimana teknologi dapat membantu memecahkan masalah sehari-hari secara kreatif.</p>
+        </div>
+
+        <div class="about-card reveal reveal--delay">
+          <h3 class="about-card__title">Cita-cita & Tujuan Karier</h3>
+          <p class="about-card__desc">Bercita-cita menjadi web developer profesional di perusahaan teknologi, dan suatu saat membangun produk digital yang bermanfaat bagi banyak orang.</p>
+        </div>
+
+        <div class="about-card reveal reveal--delay-2">
+          <h3 class="about-card__title">Kelebihan Diri</h3>
+          <p class="about-card__desc">
+            <span class="about-card__tag">Kreatif</span>
+            <span class="about-card__tag">Tanggap</span>
+            <span class="about-card__tag">Cepat belajar</span>
+            <span class="about-card__tag">Figma</span>
+            <span class="about-card__tag">HTML & CSS</span>
+            <span class="about-card__tag">Kerja tim</span>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <div class="section-label reveal">— Keahlian</div>
+      <h2 class="section-title reveal">Skill yang<br /><em>saya kuasai</em></h2>
+      <div class="skills-grid reveal reveal--delay">
+        <div class="skill-item">
+          <div class="skill-item__header">
+            <span>UI/UX Design</span><span>70%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar__fill" data-width="70"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-item__header">
+            <span>HTML &amp; CSS</span><span>75%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar__fill" data-width="75"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-item__header">
+            <span>JavaScript</span><span>60%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar__fill" data-width="60"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-item__header">
+            <span>React / Vue</span><span>55%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar__fill" data-width="55"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-item__header">
+            <span>Figma</span><span>70%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar__fill" data-width="70"></div></div>
+        </div>
+            <div class="skill-item">
+          <div class="skill-item__header">
+            <span>Canva &amp; Desain Grafis</span><span>80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar__fill" data-width="80"></div></div>
+        </div>
+          <div class="skill-item">
+          <div class="skill-item__header">
+            <span>Cisco Paket Tracer</span><span>65%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar__fill" data-width="65"></div></div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-label reveal">— Proyek</div>
+      <h2 class="section-title reveal">Karya yang<br /><em>sudah dibuat</em></h2>
+      <div class="projects__grid">
+
+        <article class="project-card reveal" data-index="01">
+          <div class="project-card__img">
+            <div class="project-img-placeholder project-img--1">
+               <img src="Img/Pakaiin web.jpeg" alt="Pakai.in Website" class="project-img" style="width:100%;height:100%;object-fit:cover;">
+              <div class="project-img__overlay">
+                <a href="https://pakaiin.vercel.app/" class="project-img__link">Lihat Proyek →</a>
+              </div>
+              <div class="project-img__art">
+                <div class="art-circles">
+                  <div class="art-circle c1"></div>
+                  <div class="art-circle c2"></div>
+                  <div class="art-circle c3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__num">01</span>
+            <h3 class="project-card__title">Pakai.in</h3>
+            <p class="project-card__desc">
+           Platform e-commerce fashion yang menghadirkan berbagai pilihan outfit untuk semua gender dan usia, dengan pengalaman belanja yang mudah, modern, dan terpercaya.
+            </p>
+            <div class="project-card__tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal--delay" data-index="02">
+          <div class="project-card__img">
+            <div class="project-img-placeholder">
+              <img src="Img/Tampilan Web Reformasi.jpeg" alt="Portofolio Website" class="project-img" style="width:100%;height:100%;object-fit:cover;">
+              <div class="project-img__overlay">
+                <a href="" class="project-img__link">Lihat Proyek →</a>
+              </div>
+              <div class="project-img__art">
+                <div class="art-lines">
+                  <div class="art-line"></div>
+                  <div class="art-line"></div>
+                  <div class="art-line"></div>
+                  <div class="art-line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__num">02</span>
+            <h3 class="project-card__title">Reformasi Website</h3>
+            <p class="project-card__desc"> 
+              Website informatif yang menyajikan sejarah, tokoh, dan dampak reformasi Indonesia, dengan desain modern dan navigasi yang mudah untuk semua kalangan.
+            </p>
+            <div class="project-card__tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal--delay-2" data-index="03">
+          <div class="project-card__img">
+            <div class="project-img-placeholder project-img--3">
+              <img src="Img/Screenshot (27).png" alt="Portofolio Website" class="project-img" style="width:100%;height:100%;object-fit:cover;">
+              <div class="project-img__overlay">
+                <a href="#" class="project-img__link">Lihat Proyek →</a>
+              </div>
+              <div class="project-img__art">
+                <div class="art-dots">
+                  <div class="art-dot"></div><div class="art-dot"></div>
+                  <div class="art-dot"></div><div class="art-dot"></div>
+                  <div class="art-dot"></div><div class="art-dot"></div>
+                  <div class="art-dot"></div><div class="art-dot"></div>
+                  <div class="art-dot"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__num">03</span>
+            <h3 class="project-card__title">Website Matematika</h3>
+            <p class="project-card__desc">
+              Website matematika yang menyajikan materi lingkaran, digunakan untuk belajar dan ada latihan soal untuk siswa sekolah menengah.
+            </p>
+            <div class="project-card__tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CV SECTION -->
+  <section class="cv-section" id="cv">
+    <div class="container">
+      <div class="section-label reveal">— Curriculum Vitae</div>
+      <h2 class="section-title reveal">Profil lengkap<br /><em>Sigit Prakoso</em></h2>
+
+      <div class="cv-wrapper reveal">
+
+        <!-- HEADER CV -->
+        <div class="cv-header">
+          <div class="cv-header__photo">
+            <img src="Img/Sigit 392.jpg" alt="Foto Sigit Prakoso" />
+          </div>
+          <div class="cv-header__info">
+            <h1 class="cv-name">Sigit Prakoso</h1>
+            <p class="cv-role">Web Developer</p>
+            <div class="cv-contacts">
+              <span>✉ sigitprakoso252@gmail.com</span>
+              <span>📍 Semarang, Jawa Tengah</span>
+              <span>🎓 SMK Negeri 7 Semarang</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cv-body">
+
+          <!-- KOLOM KIRI -->
+          <div class="cv-col cv-col--left">
+
+            <!-- DATA PRIBADI -->
+            <div class="cv-block">
+              <h3 class="cv-block__title">Data Pribadi</h3>
+              <ul class="cv-list">
+                <li><span class="cv-list__label">Nama Lengkap</span><span class="cv-list__val">Sigit Prakoso</span></li>
+                <li><span class="cv-list__label">Tempat, Tgl Lahir</span><span class="cv-list__val">Semarang, 22 Juni 2009</span></li>
+                <li><span class="cv-list__label">Jenis Kelamin</span><span class="cv-list__val">Laki-laki</span></li>
+                <li><span class="cv-list__label">Agama</span><span class="cv-list__val">Islam</span></li>
+                <li><span class="cv-list__label">Kewarganegaraan</span><span class="cv-list__val">Indonesia</span></li>
+                <li><span class="cv-list__label">Alamat</span><span class="cv-list__val">Semarang, Jawa Tengah</span></li>
+                <li><span class="cv-list__label">Email</span><span class="cv-list__val">sigitprakoso252@gmail.com</span></li>
+              </ul>
+            </div>
+
+            <!-- SKILLS -->
+            <div class="cv-block">
+              <h3 class="cv-block__title">Skills</h3>
+              <div class="cv-skills">
+                <div class="cv-skill-item">
+                  <div class="cv-skill-header"><span>HTML & CSS</span><span>80%</span></div>
+                  <div class="skill-bar"><div class="skill-bar__fill" data-width="80"></div></div>
+                </div>
+                <div class="cv-skill-item">
+                  <div class="cv-skill-header"><span>JavaScript</span><span>60%</span></div>
+                  <div class="skill-bar"><div class="skill-bar__fill" data-width="60"></div></div>
+                </div>
+                <div class="cv-skill-item">
+                  <div class="cv-skill-header"><span>Figma / UI Design</span><span>70%</span></div>
+                  <div class="skill-bar"><div class="skill-bar__fill" data-width="70"></div></div>
+                </div>
+                <div class="cv-skill-item">
+                  <div class="cv-skill-header"><span>React / Vue</span><span>55%</span></div>
+                  <div class="skill-bar"><div class="skill-bar__fill" data-width="55"></div></div>
+                </div>
+              </div>
+              <div class="cv-tags">
+                <span>Kreatif</span>
+                <span>Kerja Tim</span>
+                <span>Cepat Belajar</span>
+                <span>Tanggap</span>
+                <span>Komunikatif</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- KOLOM KANAN -->
+          <div class="cv-col cv-col--right">
+
+            <!-- PENDIDIKAN -->
+            <div class="cv-block">
+              <h3 class="cv-block__title">Riwayat Pendidikan</h3>
+              <div class="cv-timeline">
+                <div class="cv-tl-item">
+                  <div class="cv-tl-dot"></div>
+                  <div class="cv-tl-content">
+                    <p class="cv-tl-year">2024 — Sekarang</p>
+                    <h4 class="cv-tl-name">SMK Negeri 7 Semarang</h4>
+                    <p class="cv-tl-sub">Sistem Informasi Jaringan dan Aplikasi (SIJA)</p>
+                  </div>
+                </div>
+                <div class="cv-tl-item">
+                  <div class="cv-tl-dot"></div>
+                  <div class="cv-tl-content">
+                    <p class="cv-tl-year">2020 — 2023</p>
+                    <h4 class="cv-tl-name">SMP Negeri 32 Semarang</h4>
+                    <p class="cv-tl-sub">Murid SMPN 32 Semarang</p>
+                  </div>
+                </div>
+                <div class="cv-tl-item">
+                  <div class="cv-tl-dot"></div>
+                  <div class="cv-tl-content">
+                    <p class="cv-tl-year">2014 — 2020</p>
+                    <h4 class="cv-tl-name">SDN Pedurungan Lor 02</h4>
+                    <p class="cv-tl-sub">Murid SDN Pedurungan Lor 02</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- PENGALAMAN -->
+            <div class="cv-block">
+              <h3 class="cv-block__title">Pengalaman</h3>
+              <div class="cv-timeline">
+                </div>
+                <div class="cv-tl-item">
+                  <div class="cv-tl-dot cv-tl-dot--alt"></div>
+                  <div class="cv-tl-content">
+                    <p class="cv-tl-year">Organisasi</p>
+                    <h4 class="cv-tl-name">Paskibra (2021-2023)</h4>
+                    <p class="cv-tl-sub">Anggota paskibra SMPN 32 SEMARANG</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- QUOTES -->
+        <div class="cv-quote">
+          <blockquote>
+            "Kode yang baik bukan hanya yang berjalan, tapi yang mudah dipahami dan memberi dampak nyata."
+          </blockquote>
+          <cite>— Sigit Prakoso</cite>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="contact__left reveal">
+          <div class="section-label">— Kontak</div>
+          <h2 class="section-title">Mari kita buat<br /><em>sesuatu yang luar biasa</em></h2>
+          <p class="contact__desc">
+           Jika Anda tertarik untuk bekerja sama, berdiskusi, atau sekadar bertanya lebih lanjut mengenai karya dan pengalaman saya, jangan ragu untuk menghubungi saya melalui kontak yang tersedia.
+          </p>
+          <div class="contact__links">
+            <a href="mailto: sigitprakoso252@gmail.com" class="contact__link">
+              <span class="contact__link-icon">✉</span>
+              sigitprakoso252@gmail.com
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="contact__link">
+              <span class="contact__link-icon">in</span>
+              linkedin.com/in/sigitprakoso
+            </a>
+            <a href="https://github.com" target="_blank" class="contact__link">
+              <span class="contact__link-icon">⌥</span>
+              github.com/sigitprakoso
+            </a>
+          </div>
+        </div>
+        <div class="contact__right reveal reveal--delay">
+          <form class="form" id="contactForm">
+            <div class="form__group">
+              <label class="form__label" for="name">Nama Lengkap</label>
+              <input class="form__input" type="text" id="name" name="name" placeholder="Sigit parkoso" required />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="email">Alamat Email</label>
+              <input class="form__input" type="email" id="email" name="email" placeholder="Sigit@email.com" required />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="subject">Subjek</label>
+              <input class="form__input" type="text" id="subject" name="subject" placeholder="Tawaran Proyek / Kolaborasi" />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="message">Pesan</label>
+              <textarea class="form__input form__textarea" id="message" name="message" rows="5" placeholder="Ceritakan proyek atau ide Anda..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+              <span>Kirim Pesan</span>
+              <span class="btn__icon">→</span>
+            </button>
+            <div class="form__success" id="formSuccess">
+              ✓ Pesan terkirim! Saya akan segera menghubungi Anda.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <span class="footer__logo">SP<span class="dot">.</span></span>
+        <p class="footer__copy">© 2026 Sigit prakoso</p>
+        <div class="footer__socials">
+          <a href="https://www.instagram.com/gitzrawrr?igsh=M3ZwNjA3Z29hYTdx" class="footer__social">Instagram</a>
+          <a href="https://www.linkedin.com/in/sigitprakoso" class="footer__social">LinkedIn</a>
+          <a href="https://github.com/sigitprakoso" class="footer__social">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
